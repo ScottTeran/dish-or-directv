@@ -1,5 +1,7 @@
 .box {
-	text-align: center;
+	/*text-align: center;
+	margin-right: 0;
+	margin-left: 0;*/
 }
 
 
@@ -7,10 +9,8 @@
 .bg-1 {
 	background: #ECEFF1;
 	color: #37474f;
-	font-family: 'EB Garamond', serif;
-	font-size: 16px;
-	margin-right: 0;
-	margin-left: 0;
+	/*margin-right: 0;
+	margin-left: 0;*/
 }
 
 /* Common button styles */
@@ -42,14 +42,14 @@
 	color: #37474f;
 	border-color: #37474f;
 }
-.bg-2 .button {
+/*.bg-2 .button {
 	color: #ECEFF1;
 	border-color: #ECEFF1;
 }
 .bg-3 .button {
 	color: #fff;
 	border-color: #fff;
-}
+}*/
 
 /* Sizes */
 .button--size-s {
@@ -99,6 +99,9 @@
 
 /* Wayra */
 .button--wayra {
+	font-size: 22px;
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;
 	overflow: hidden;
 	width: 245px;
 	-webkit-transition: border-color 0.3s, color 0.3s;
@@ -124,15 +127,15 @@
 }
 .button--wayra:hover {
 	color: #fff;
-	border-color: #3f51b5;
+	border-color: #04050B;
 }
 .button--wayra.button--inverted:hover {
-	color: #3f51b5;
+	color: #04050B;
 	border-color: #fff;
 }
 .button--wayra:hover::before {
 	opacity: 1;
-	background-color: #3f51b5;
+	background-color: #04050B;
 	-webkit-transform: rotate3d(0, 0, 1, 0deg);
 	transform: rotate3d(0, 0, 1, 0deg);
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
