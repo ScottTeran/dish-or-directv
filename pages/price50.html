@@ -6,13 +6,32 @@
 	<link rel="stylesheet" type/text="text/css" href="../css/styles.css">
 	<link rel="stylesheet" type/text="text/css" href="../css/buttons.css">
 	<link href='https://fonts.googleapis.com/css?family=Quicksand:700,400|EB+Garamond' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- price display -->
+	<script>
+		$(document).ready(function(){
+		    $("#dtv50").click(function(){
+		        $("#dtvMonth50").fadeIn("slow");
+		        $("#dtvDVR50").fadeIn("slow");
+		        $("#dtvReceiver50").fadeIn(3000);
+		    });
+		});
+	</script>
 
 </head>
 <body>
+	
+
 	<div class="vs">
 	<div class="dtvSide">
 		<h1>DIRECTV</h1>
-		<p>Click to see price breakdown.</p>
+		<button id="dtv50">price breakdown</button>
+		<div id="dtvMonth50">$24.99 (package)</div>
+		<i class="fa fa-plus"></i>
+		<div id="dtvDVR50">$15.00 (dvr)</div>
+		<div id="dtvReceiver50">$7.50 (receiver)</div>
 	</div>
 
 	<div class="dishSide">

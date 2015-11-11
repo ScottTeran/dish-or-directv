@@ -76,3 +76,7 @@ p {
     );
     border-radius: 25px;
 }
+
+#dtvMonth50, #dtvDVR50, #dtvReceiver50 {
+	display: none;
+}
