@@ -10,18 +10,18 @@ body {
 }*/
 
 h1 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 5em;
 }
 
 .welcome h1 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 5em;
 	padding: 40px 0 40px 0;
 }
 
 p {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 1.5em;
 }
 
@@ -57,24 +57,24 @@ p {
 	float: left;
 	width: 40%;
 	margin-right: 20px;
-	/*background-color: #E5EEFF;*/
+	/*background-color: #E5EEFF;
 	background-image:
     linear-gradient(
       #E5EEFF, white
     );
-    border-radius: 25px;
+    border-radius: 25px;*/
 }
 
 .dishSide {
 	text-align: center;
 	float: left;
 	width: 40%;
-	/*background-color: #FFE5E5;*/
+	/*background-color: #FFE5E5;
 	background-image:
     linear-gradient(
       #FFE5E5, white
     );
-    border-radius: 25px;
+    border-radius: 25px;*/
 }
 
 #dtvMonth50, #dtvDVR50, #dtvReceiver50 {
